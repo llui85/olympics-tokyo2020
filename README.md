@@ -2,15 +2,15 @@
 
 ## Summary
 
-This project is primarily a scraper to archive complete results from the Tokyo 2020. It uses the JSON API that powers [this page](https://webocsitok.ovpobs.tv/olympic-family-iframe/?widget=results).
+This project is mainly a scraper to archive complete results from the Tokyo 2020 Olympics. It also provides some basic information about how to use the semi-official API yourself to make something
 
 The scraper implemented in this repository was written to download **complete data**. If you only want limited data such as schedules or medal counts, you would probably find it easier to read [the API documentation](API.md) and implement your own query (I'm happy to help with this - just open an issue).
-<!--
- -->
+
+If you want to use this data for analysis, you're probably best off using the direct download as detailed below.
 
 ## How do I use this?
 
-**If you just want the data and don't want to develop anything with this, scroll down for the direct data download**
+**If you just want the data and don't want to develop anything with this, scroll down for the direct data download.**
 
 1. Clone the repository.
 
@@ -60,7 +60,7 @@ This means that the data is:
 
 Yes it does!
 
-You will need to change the following variables in `scraper.py` to use the paralympic servers
+You will need to change the following variables in `scraper.py` to use the paralympic servers.
 
 ```py
 OVP_PREFIX = 'https://appovpparatok.ovpobs.tv'

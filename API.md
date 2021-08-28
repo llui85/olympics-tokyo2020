@@ -89,7 +89,7 @@ The data structure is complex, so the best way to get a feel for it is to run so
 
 Try:
 - getting the medal count for a country
-- looking up an athlete by their surname (filter[])
+- looking up an athlete by their surname
 - getting the list of events [and](https://jsonapi.org/format/#fetching-includes) their discipline
 - getting the results for a particular heat for an event
 - listing all the medals and who won them
