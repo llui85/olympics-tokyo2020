@@ -38,14 +38,25 @@ python3 generate_data.py
 
 As this is a large download which can take over half an hour, I have provided the output of `generate_data.py` as a dropbox download below.
 
-<!-- maybe this'll work in markdown? -->
-<big>[Download the data for the 2020 Olympics (all-by-type).](https://www.dropbox.com/s/jmcdvwqkb6hcxks?dl=1)</big>
+[Download the data for the 2020 Olympics (all-by-type) (693 MB).](https://www.dropbox.com/s/jmcdvwqkb6hcxks?dl=1)
 
 sha1 hash:
 ```
 513ec605030a15bf1d9d9468d9b692c85b50462b  tokyo-olympics-all-by-type-2021-08-11.json
 
 ```
+
+## Attribution
+Data should always be attributed to the [Olympic Channel Services](https://olympicchannelservices.com/), and the [Olympic Broadcasting Services](https://www.obs.tv/home). It's probably also a good idea to attribute the IOC as well.
+
+If you use this data, I'd appreciate it very much if you attribute the scraping process to "llui85", and link to this repository. This would be appreciated, but it's not required.
+
+Example:
+
+```
+Data source: Olympic Channel Services and Olympic Broadcasting Services. Data scraped by llui85 (https://github.com/llui85/olympics-tokyo2020)
+```
+
 
 ## Why should I use this over any of the [other scrapers available?](https://github.com/search?o=desc&q=olympics+scraper&s=updated&type=Repositories)
 
