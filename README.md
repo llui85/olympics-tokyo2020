@@ -6,11 +6,9 @@ This project is mainly a scraper to archive complete results from the Tokyo 2020
 
 The scraper implemented in this repository was written to download **complete data**. If you only want limited data such as schedules or medal counts, you would probably find it easier to read [the API documentation](API.md) and implement your own query (I'm happy to help with this - just open an issue).
 
-If you want to use this data for analysis, you're probably best off using the direct download as detailed below.
+**If you want to use this data for analysis, you're probably best off using the dataset [uploaded on Kaggle](https://www.kaggle.com/llui85/tokyo-2021-olympics-complete-grouped-by-type) (see below for more information).**
 
 ## How do I use this?
-
-**If you just want the data and don't want to develop anything with this, scroll down for the direct data download.**
 
 1. Clone the repository.
 
@@ -36,15 +34,9 @@ At this point you are finished, and find your scraped data in `./docs/data/raw/m
 python3 generate_data.py
 ```
 
-As this is a large download which can take over half an hour, I have provided the output of `generate_data.py` as a dropbox download below.
+___
 
-[Download the data for the 2020 Olympics (all-by-type) (693 MB).](https://www.dropbox.com/s/jmcdvwqkb6hcxks?dl=1)
-
-sha1 hash:
-```
-513ec605030a15bf1d9d9468d9b692c85b50462b  tokyo-olympics-all-by-type-2021-08-11.json
-
-```
+As this is a large download which can take over half an hour if scraping completely, I have uploaded the combined JSON file to [ Kaggle](https://www.kaggle.com/llui85/tokyo-2021-olympics-complete-grouped-by-type) and [Dropbox](https://www.dropbox.com/s/jmcdvwqkb6hcxks?dl=1).
 
 ## Attribution
 Data should always be attributed to the [Olympic Channel Services](https://olympicchannelservices.com/), and the [Olympic Broadcasting Services](https://www.obs.tv/home). It's probably also a good idea to attribute the IOC as well.
